@@ -1,5 +1,7 @@
 # Mern Stack FlipKart Clone.
 
+## Setting up the project.
+
 ### Step 1: Clone the repository
 
 ```bash
@@ -25,7 +27,7 @@ MONGODB_URI="your-mongodb-uri"
 Replace "your-mongodb-uri" with the actual URI of your MongoDB database.
 
 
-Step 5: Install Backend Dependencies
+### Step 5: Install Backend Dependencies
 
 In your terminal, open the  DooGraphics directory.
 Then run  the following command to install the backend dependencies:
@@ -33,25 +35,40 @@ Then run  the following command to install the backend dependencies:
 ### npm install
 This command will install all the required packages specified in the package.json file.
 
-![Install backend dependencied](https://github.com/kyash777/DooGraphics/blob/master/images/stp2.png)
+![Install backend dependencies](https://github.com/kyash777/DooGraphics/blob/master/images/stp2.png)
+
+### Step 5: Install Frontend Dependencies
+In your terminal, navigate t0  DooGraphics/frontend and Install Frontend Dependencies
+using following command.
+
+### cd frontend
+### npm install
+This command will install all the required packages specified in the package.json file.
+
+![Install frontend dependencied](https://github.com/kyash777/DooGraphics/blob/master/images/stp1.png)
 
 
-Step 6: Run Setup Script
-While still in the /backend directory of the project, execute the following command to run the setup script:
+### Step 6: Run Setup Script
+In DooGraphics-master directory  of the project, execute the following command to run the setup script:
 
-npm run setup
+### npm run setup
 This setup script may perform necessary database migrations or any other initialization tasks required for the project.
 
-Step 7: Run the Backend Server
-In the same terminal, run the following command to start the backend server:
+## Starting Project Locally.
 
-npm run dev
+### Step 1: Run the Backend Server
+In DooGraphics-master directory , run the following command to start the backend server:
+
+### npm start or node server.js
 This command will start the backend server, and it will listen for incoming requests.
 
-Step 8: Install Frontend Dependencies
-Open a new terminal window , and run the following command to install the frontend dependencies:
+![Starting Backend Server](https://github.com/kyash777/DooGraphics/blob/master/images/sr1.png)
 
-cd frontend
-npm install
-Step 9: Run the Frontend Server
-After installing the frontend dependencies, run the following command in the same terminal to start the frontend server:
+
+### Step 9: Run the Frontend Server
+After installing the frontend dependencies, run the following command in the same terminal to start the frontend server.
+
+### cd frontend
+### npm start
+
+![Starting Fontend Server](https://github.com/kyash777/DooGraphics/blob/master/images/sr2.png)
