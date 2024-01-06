@@ -21,9 +21,7 @@ This file will store environment variables for the project to run.
 
 ### Step 4: Update MongoDB URI
 In the .env file, find the line that reads:
-
 MONGODB_URI="your-mongodb-uri"
-
 Replace "your-mongodb-uri" with the actual URI of your MongoDB database.
 
 
@@ -37,7 +35,7 @@ This command will install all the required packages specified in the package.jso
 
 ![Install backend dependencies](https://github.com/kyash777/DooGraphics/blob/master/images/stp2.png)
 
-### Step 5: Install Frontend Dependencies
+### Step 6: Install Frontend Dependencies
 In your terminal, navigate t0  DooGraphics/frontend and Install Frontend Dependencies
 using following command.
 
@@ -65,7 +63,7 @@ This command will start the backend server, and it will listen for incoming requ
 ![Starting Backend Server](https://github.com/kyash777/DooGraphics/blob/master/images/sr1.png)
 
 
-### Step 9: Run the Frontend Server
+### Step 2: Run the Frontend Server
 After installing the frontend dependencies, run the following command in the same terminal to start the frontend server.
 
 ### cd frontend
