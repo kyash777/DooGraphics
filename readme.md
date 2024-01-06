@@ -14,13 +14,10 @@ Create a new database or cluster by following the instructions provided in the M
 add your current IP address to the MongoDB database's IP whitelist to allow connections (this is needed whenever your ip changes)
 
 ### Step 3: Edit the Environment File
-
 Check a file named .env in the DooGraphics-master directory.
-
 This file will store environment variables for the project to run.
 
 ### Step 4: Update MongoDB URI
-
 In the .env file, find the line that reads:
 
 MONGODB_URI="your-mongodb-uri"
@@ -36,7 +33,7 @@ Then run  the following command to install the backend dependencies:
 ### npm install
 This command will install all the required packages specified in the package.json file.
 
-![Install backend dependencied]()
+![Install backend dependencied](https://github.com/kyash777/DooGraphics/blob/master/images/stp2.png)
 
 
 Step 6: Run Setup Script
