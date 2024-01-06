@@ -1,7 +1,11 @@
 # Mern Stack FlipKart Clone.
 ### Demo
 
-![demo](https://github.com/kyash777/DooGraphics/blob/master/images/demo.gif)
+<video width="320" height="240" controls autoplay>
+  <source src="https://github.com/kyash777/DooGraphics/blob/master/images/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 ## Setting up the project.
 
