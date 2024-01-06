@@ -3,7 +3,7 @@
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/idurar/idurar-erp-crm.git
+git clone https://github.com/kyash777/DooGraphics.git
 ```
 
 ### Step 2: Create Your MongoDB Account and Database/Cluster
@@ -15,25 +15,29 @@ add your current IP address to the MongoDB database's IP whitelist to allow conn
 
 ### Step 3: Edit the Environment File
 
-Check a file named .env in the /backend directory.
+Check a file named .env in the DooGraphics-master directory.
 
 This file will store environment variables for the project to run.
 
-Step 4: Update MongoDB URI
+### Step 4: Update MongoDB URI
+
 In the .env file, find the line that reads:
 
-DATABASE="your-mongodb-uri"
+MONGODB_URI="your-mongodb-uri"
 
 Replace "your-mongodb-uri" with the actual URI of your MongoDB database.
 
+
 Step 5: Install Backend Dependencies
-In your terminal, navigate to the /backend directory
 
-cd backend
-the urn the following command to install the backend dependencies:
+In your terminal, open the  DooGraphics directory.
+Then run  the following command to install the backend dependencies:
 
-npm install
+### npm install
 This command will install all the required packages specified in the package.json file.
+
+![Install backend dependencied]()
+
 
 Step 6: Run Setup Script
 While still in the /backend directory of the project, execute the following command to run the setup script:
