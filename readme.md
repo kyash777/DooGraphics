@@ -1,7 +1,7 @@
 # Mern Stack FlipKart Clone.
 ### Demo
 
-![demo](https://github.com/kyash777/DooGraphics/blob/master/images/stp2.png)
+![demo](https://github.com/kyash777/DooGraphics/blob/master/images/demo.mp4)
 
 ## Setting up the project.
 
