@@ -1,16 +1,19 @@
 # Mern Stack FlipKart Clone.
 
-Step 1: Clone the repository
+### Step 1: Clone the repository
+
 git clone https://github.com/idurar/idurar-erp-crm.git
 cd idurar-erp-crm
-Step 2: Create Your MongoDB Account and Database/Cluster
+
+### Step 2: Create Your MongoDB Account and Database/Cluster
 Create your own MongoDB account by visiting the MongoDB website and signing up for a new account.
 
 Create a new database or cluster by following the instructions provided in the MongoDB documentation. Remember to note down the "Connect to your application URI" for the database, as you will need it later. Also, make sure to change <password> with your own password
 
 add your current IP address to the MongoDB database's IP whitelist to allow connections (this is needed whenever your ip changes)
 
-Step 3: Edit the Environment File
+### Step 3: Edit the Environment File
+
 Check a file named .env in the /backend directory.
 
 This file will store environment variables for the project to run.
