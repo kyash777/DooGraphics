@@ -2,7 +2,7 @@
 
 ### Step 1: Clone the repository
 
-git clone: https://github.com/kyash777/DooGraphics
+git clone: [https://github.com/kyash777/DooGraphics](https://github.com/kyash777/DooGraphics)
 
 ### Step 2: Create Your MongoDB Account and Database/Cluster
 Create your own MongoDB account by visiting the MongoDB website and signing up for a new account.
